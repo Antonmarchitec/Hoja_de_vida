@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+
+:root {
+    --blue: #0c1b32;
+    --blue-trans: #0c1b32c4;
+    --green:#56fbd3;
+    --subtitulos:#bebebe;
+    --parrafos:#e7e7e7;
+
+    --Titulo-right:#535353;
+    --parrafo-right:#7f7f7f;
+
+  }
+
+.container{
+    width: 100%;
+    max-width: 1150px;
+    margin: auto;
+    background: rgb(230, 230, 230);
+}
+
+/*********HEADER*****************/
+.container .contHeader{
+    width: 100%;
+    background-image: url(/imagenes/desarrollando.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.container .contHeader .bloque_foto{
+    width: 300px;
+    height: 300px;
+    background: var(--blue-trans);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .contHeader .bloque_foto .bloque_foto_int{
+    width: 230px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.container .contHeader .bloque_descripcion{
+    width: 850px;
+    text-align: center;
+    color: aliceblue;
+    background: var(--blue-trans);
+    padding-top: 45px;
+}
+
+.bloque_descripcion_name{
+     font-size: 40px;
+     text-transform: uppercase;
+     letter-spacing: 5px;
+}
+.bloque_descripcion_dev{
+    line-height: 25px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    color: var(--green);
+}
+
+/*********FIN HEADER*****************/
+
+
+
+
+
+
+
+
+
+
+.container .sections{
+    width: 100%;
+    background: var(--blue);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+/*********SECTION LEFT*****************/
+
+.sectionLeft{
+    width:300px;
+    /*padding: 10px 0px;*/
+    background: var(--blue);
+}
+.sectionLeft .sectionLeft_bloque{
+    width: 100%;
+    padding:20px;
+    background: var(--blue);
+    
+}
+.sectionLeft .sectionLeft_bloque_perfil{
+    font-style: normal;
+    color: var(--subtitulos);
+    margin-bottom: 10px;
+}
+.sectionLeft .sectionLeft_bloque_parrafo{
+    margin-top: 15px;
+    font-weight:100;
+    color: var(--parrafos);
+    font-style: normal;
+}
+
+/*********SECTION LEFT*****************/
+
+.sectionLeft .sectionLeft_bloque_contacto{
+    color: var(--subtitulos);
+    margin-bottom: 10px;
+}
+.sectionLeft .sectionLeft_bloque_base{
+    width: 100%;
+    margin-top: 15px;
+    color: var(--parrafos);
+    font-weight: 100;
+    font-style: normal;
+}
+.sectionLeft .sectionLeft_bloque_base .iconContact{
+    color: var(--green);
+    width: 25px;
+}
+
+
+/*********SECTION LEFT*****************/
+.sectionLeft .sectionLeft_bloque_idioma{
+    color: var(--subtitulos);
+    margin-bottom: 10px;
+}
+.sectionLeft .sectionLeft_bloque_detalle{
+    margin-top: 15px;
+    color: var(--parrafos);
+}
+.sectionLeft .sectionLeft_bloque_detalle .fa-asterisk{
+    color: var(--green);
+}
+
+
+/*********SECTION LEFT*****************/
+.sectionLeft_bloque_detalle{
+    width: 100%;
+    padding: 5px 0px;
+
+}
+.sectionLeft_bloque_idioma_title{
+    color: var(--subtitulos);
+}
+.sectionLeft_bloque_idioma_des{
+    color: var(--parrafos);
+}
+
+
+
+/*********FIN SECTION LEFT*****************/
+
+
+
+
+
+
+
+
+
+
+
+
+/*********SECTION RIGHT*****************/
+.container .sections .sectionRight{
+    width:800px; 
+    padding: 20px;
+    background: rgb(234, 234, 234);
+}
+
+/**---------EDUCACION*-------------------*/
+.sectionRight_base_educacion{
+    width: 100%;
+    padding: 10px 0px;
+}
+.sectionRight_title{
+    margin-bottom: 8px;
+    color: var(--Titulo-right);
+}
+.sectionRight_text{
+    margin-top: 10px;
+    color: var(--Titulo-right);   
+}
+.sectionRight_descripcion{
+    color: var(--parrafo-right);
+
+}
+
+
+/***********SKILLS*******************/
+.sectionRight_base_skills{
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px 0px;
+    color:var(--Titulo-right);
+}
+.sectionRight_titleEdu{
+    margin-bottom: 8px;
+}
+
+.sectionRight_cajas{
+    width: 100%;
+    padding: 2px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.rightContCajas{
+    width: 200px;
+    padding: 5px;
+    /*background: rgb(207, 207, 207);*/
+    color: var(--parrafo-right);
+}
+.rightContCajas .iconSkills{
+    margin-right: 5px;
+    color:black;
+}
+.rightContCajas .iconSkillsPhotoshop{
+   width: 22px;
+   height: 22px;
+   display: flex;
+   align-items: center;
+}
+.iconSkillsPhotoshop .textPhotoshop{
+   margin-left: 5px;
+}
+
+/**************PROYECTOS*******************/
+.sectionRight_base_proyectos{
+    width: 100%;
+    padding: 5px 0px;
+    /*background: rgb(219, 216, 216);*/
+}
+.sectionRight_title{
+    color: var(--Titulo-right);
+}
+.sectionRight_block{
+    width: 100%;
+    padding: 5px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.sectionRight_block_box1{
+    width: 400px;
+    padding: 5px 0px;
+}
+.sectionRight_block_title{
+    color: var(--Titulo-right);
+    margin-bottom: 10px;
+}
+.sectionRight_block_des{
+    color: var(--parrafo-right);
+    margin-bottom: 10px;
+}
+.sectionRight_block_enlace{
+    text-decoration: none;
+    color: var(--blue);
+}
+.sectionRight_block_box2{
+    width: 200px;
+    padding: 5px 0px;
+}
+.sectionRight_block_Right_QR{
+    width: 120px;
+    height: 120px;
+}
+
+
+
+/**************EXPERIENCIA*******************/
+.sectionRight_base_experiencia{
+    width: 100%;
+    padding: 5px 0px;
+}
+.sectionRight_blockExp{
+    width: 100%;
+    padding: 10px 0px;
+    color: var(--parrafo-right);
+}
+.iconArrow{
+    color: var(--Titulo-right);
+}
+.title{
+    color: var(--Titulo-right);
+}
+/*********FIN SECTION RIGHT*****************/
