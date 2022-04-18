@@ -31,7 +31,7 @@
 /*********HEADER*****************/
 .container .contHeader{
     width: 100%;
-    background-image: url(/imagenes/desarrollando.jpg);
+    background-image: url(../imagenes/desarrollando.jpg);
     background-size: 100% 100%;
     display: flex;
     flex-direction: row;
