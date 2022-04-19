@@ -315,3 +315,226 @@
     color: var(--Titulo-right);
 }
 /*********FIN SECTION RIGHT*****************/
+
+
+
+
+
+/*
+RESPONSIVE DESING OFICIAL
+@import (min-width:1025px) and (max-width:1200px)
+@import (min-width:770px)  and (max-width:1024px)
+@import (min-width:641px)  and (max-width:769px)
+@import (min-width:481px)  and (max-width:640px)
+@import (min-width:320px)  and (max-width:480px)
+*/
+
+
+@media (min-width:641px) and (max-width:769px){
+    .container{
+        width: 100%;
+        max-width: 1250px;
+        margin: auto;
+        background: rgb(230, 230, 230);
+        background: green;
+        padding: 10px 0px;
+    }
+        
+    /*********HEADER*****************/
+    .container .contHeader{
+        width: 100%;
+        background-image: url(../imagenes/desarrollando.jpg);
+        background-size: 100% 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .container .contHeader .bloque_foto{
+        width: 100%;
+        height:auto;
+        padding: 10px 0px;
+        background: var(--blue-trans);  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container .contHeader .bloque_foto .bloque_foto_int{
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+        border-radius: 50%;
+    }
+    .container .contHeader .bloque_descripcion{
+        width:100%;
+        text-align: center;
+        color: aliceblue;   
+        background: var(--blue-trans);
+        padding: 30px;
+    }
+
+    .bloque_descripcion_name{
+        width: 80%;
+        margin: auto;
+        font-size: 35px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        line-height: 40px;
+    }
+    .bloque_descripcion_dev{
+        margin-top: 10px;
+        line-height: 30px;
+        font-weight: 300;
+        letter-spacing: 2px;
+        color: var(--green);
+        font-size: 25px;
+    }
+    .bloque_descripcion_level{
+        padding: 5px ;
+        margin-top: 30px;
+        background:transparent;
+        letter-spacing: 1px;
+    }
+
+    /*********FIN HEADER*****************/
+
+
+
+    /*********SECTION LEFT*****************/
+
+    .sectionLeft{
+        width:35%;
+        padding: 10px 0px;
+        background: var(--blue);
+    
+    }
+    
+
+
+    /*********SECTION RIGHT*****************/
+    .container .sections .sectionRight{
+        width:65%; 
+        padding: 20px;
+        background: rgb(255, 255, 255);
+    }
+
+
+
+
+
+}
+
+
+
+@media (min-width:20px) and (max-width:640px){
+    .container{
+        width: 100%;
+        max-width: 1250px;
+        margin: auto;
+        background: rgb(230, 230, 230);
+        background: rgb(34, 107, 156);
+        padding: 10px 0px;
+    }
+        
+    /*********HEADER*****************/
+    .container .contHeader{
+        width: 100%;
+        background-image: url(../imagenes/desarrollando.jpg);
+        background-size: 100% 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .container .contHeader .bloque_foto{
+        width: 100%;
+        height:auto;
+        padding: 10px 0px;
+        background: var(--blue-trans);  
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container .contHeader .bloque_foto .bloque_foto_int{
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+        border-radius: 50%;
+    }
+    .container .contHeader .bloque_descripcion{
+        width:100%;
+        text-align: center;
+        color: aliceblue;   
+        background: var(--blue-trans);
+        padding: 30px;
+    }
+
+    .bloque_descripcion_name{
+        width: 80%;
+        margin: auto;
+        font-size: 35px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        line-height: 40px;
+    }
+    .bloque_descripcion_dev{
+        margin-top: 10px;
+        line-height: 30px;
+        font-weight: 300;
+        letter-spacing: 2px;
+        color: var(--green);
+        font-size: 25px;
+    }
+    .bloque_descripcion_level{
+        padding: 5px ;
+        margin-top: 30px;
+        background:transparent;
+        letter-spacing: 1px;
+    }
+
+    /*********FIN HEADER*****************/
+
+
+
+    /*********SECTION LEFT*****************/
+
+    .sectionLeft{
+        width:100%;
+        padding: 10px 0px;
+        background: var(--blue);
+    }
+    
+
+
+    /*********SECTION RIGHT*****************/
+    .container .sections .sectionRight{
+        width:100%; 
+        padding: 20px;
+        background: rgb(255, 255, 255);
+    }
+    .sectionRight_block_des{
+        width: 100%;
+        color: var(--parrafo-right);
+        margin-bottom: 10px;
+    }
+    .sectionRight_block_enlace{
+        width: 200px;
+        text-decoration: none;
+        color: var(--blue);
+    }
+    .rightContCajas{
+        width: 120px;
+        padding: 5px;
+        /*background: rgb(207, 207, 207);*/
+        color: var(--parrafo-right);
+    }
+
+
+}
+
+
+
+
+
+
+
