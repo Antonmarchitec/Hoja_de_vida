@@ -33,6 +33,7 @@
     width: 100%;
     background-image: url(../imagenes/desarrollando.jpg);
     background-size: 100% 100%;
+    background-attachment: fixed;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -311,6 +312,7 @@
 .sectionRight_base_experiencia{
     width: 100%;
     padding: 5px 0px;
+    
 }
 .sectionRight_blockExp{
     width: 100%;
@@ -322,6 +324,10 @@
 }
 .title{
     color: var(--Titulo-right);
+}
+.linkTicket{
+    text-decoration: none;
+    color: var(--blue);
 }
 /*********FIN SECTION RIGHT*****************/
 
